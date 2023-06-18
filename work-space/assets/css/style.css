@@ -388,3 +388,140 @@ body {
 .pargh{
   /* font-size: ; */
 }
+
+/* *******form section ****** */
+
+  .reg-body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/slider_demo.jpg);
+    background-size: cover;
+  }
+
+  .containerss{
+      width: 100vh;
+      height: 450px;
+      background-color: rgb(0, 0, 0, 0.7);
+      padding: 28px;
+      margin: 0 28px;
+      box-shadow: inset -2px 2px 2px 2px white;
+  }
+
+  .form-title{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+  }
+
+  .main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20pxb 0;
+
+  }
+.user-input-box:nth-child(2n){
+  justify-content: end;
+}
+
+.user-input-box{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  padding-bottom: 15px;
+}
+
+.user-input-box label{
+  width: 95%;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+
+
+.user-input-box input{
+  height: 40px;
+  width: 95%;
+  border-radius: 7px;
+  outline: none;
+  border: qpx solid gray;
+  padding: 0 10px;
+  font-size: 12px;
+  /* margin-left: 1rem; */
+}
+
+#sel{
+  height: 40px;
+  width: 95%;
+  border-radius: 7px;
+  outline: none;
+  border: qpx solid gray;
+  padding: 0 10px;
+  font-size: 12px;
+}
+
+.form-submit-btn {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 18px;
+  padding: 1px;
+  border: none;
+  border-radius: 3px;
+  color: rgba(254, 253, 253, 0.922);
+  background: #f4bb04;
+}
+
+.form-submit-btn:hover{
+  background: #bb9002;
+  color: white;
+}
+
+
+@media(max-width: 600px){
+        .container{
+           min-width: 280px;
+            }
+
+       .user-input-box{
+          margin-bottom: 9px;
+          width: 100%;
+        
+        }
+
+       .user-input-box:nth-child(2n){
+          justify-content: space-between;
+        
+        }
+       .main-user-info{
+          max-height: 380px;
+          overflow: auto;
+      
+        }
+
+       .main-user-info::-webkit-scrollbar{
+          width: 0;
+      
+        }
+}
+
+
+
+
+
+/* ******** endform section ***** */
+
+
+
+
+
+
+
